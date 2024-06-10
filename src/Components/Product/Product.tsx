@@ -13,7 +13,7 @@ export const Product = () => {
     return (
         <>
 
-             <div className="justify-center flex mt-4">
+             <div className="container ProductArea justify-center flex mx-auto">
                 <div className="review grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4">
                     <img src={ProductImgOne} alt="image1" />
                     <img src={ProductImgTwo} alt="image1" />
